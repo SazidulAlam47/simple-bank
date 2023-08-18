@@ -1,0 +1,40 @@
+body{
+    padding: 100px;
+}
+.submit-area {
+    padding: 50px;
+    border: 1px solid gainsboro;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 10px;
+}
+input{
+    margin: 10px 0;
+    border: 1px solid rgb(201, 201, 201);
+}
+#transaction-area{
+    display: none;
+}
+.deposit{
+    background-color: #5d4ec6;
+}
+.withdraw{
+    background-color: #f0956f;
+}
+.balance{
+    background-color: #ef9a01;
+}
+.dolar-box{
+    padding: 30px;
+    border-radius: 10px;
+    color: #fff;
+}
+#wrong-pass{
+    color: red;
+    font-size: 12px;
+    display: none;
+}
+#no-balance{
+    font-size: 13px;
+    color: red;
+    display: none;
+}
